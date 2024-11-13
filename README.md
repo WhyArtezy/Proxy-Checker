@@ -5,3 +5,36 @@ This Python script checks the validity of proxies by attempting to connect and d
 
 ## Features
 - **Check Proxy active or not and auto save to datacenter.txt or residental.txt depending the proxy type**
+
+## Installation
+
+1. Clone the repository to your local machine:
+   ```bash
+	git clone https://github.com/recitativonika/proxy-type-checker.git
+   ```
+2. Navigate to the project directory:
+	```bash
+	cd proxy-type-checker
+	```
+3. Install the necessary dependencies:
+	```bash
+	pip install -r requirements.txt
+	```
+
+## Usage
+
+1. Put your proxy list in `proxy.txt` before running the script. example below:
+	```
+	ip:port
+	username:password@ip:port
+	http://ip:port
+	http://username:password@ip:port
+	socks5://ip:port
+	socks5://username:password@ip:port
+	```
+
+2. Run the script:
+	```bash
+	python main.py
+	```
+3. The script will check if proxy is valid/active or not and save the proxy list in `residental.txt` or `datacenter.txt` depend of the proxy type.
