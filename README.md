@@ -10,7 +10,7 @@ This Python script checks the validity of proxies by attempting to connect and d
 
 1. Clone the repository to your local machine:
    ```bash
-	git clone https://github.com/recitativonika/proxy-type-checker.git
+	git clone https://github.com/WhyArtezy/proxy-checker.git
    ```
 2. Navigate to the project directory:
 	```bash
